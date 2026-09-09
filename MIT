@@ -1,0 +1,15 @@
+
+## Instrucciones para Subir y Desplegar
+
+1. **Crear repositorio en GitHub**
+   - Ve a github.com y crea un nuevo repositorio llamado `f1-stats`
+   - No inicialices con README (ya lo tenemos)
+
+2. **Subir el código**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit: F1 Stats application"
+   git branch -M main
+   git remote add origin https://github.com/tu-usuario/f1-stats.git
+   git push -u origin main
